@@ -1,0 +1,69 @@
+.title__gray {
+    color: var(--color-light);
+}
+
+.experience__card-title {
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.experience__card {
+    background-color: var(--color-bg-variant);
+    padding: 30px 100px;
+    border-radius: 20px;
+}
+
+.experience__icon {
+    color: var(--color-primary);
+}
+
+.experience__cards-mini {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.experience__card-mini {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.experience__card:hover {
+    background: none;
+    box-shadow: 0px 0px 8px 2px var(--color-primary);
+}
+
+.experience__card-mini-text {
+    font-size: 16px;
+}
+
+.experience__card-mini-text2 {
+    font-size: 14px;
+    color: var(--color-light);
+}
+
+/*адаптив под планшет*/
+@media screen and (max-width: 1024px){
+    .experience__cards {
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+    }
+    .experience__card {
+        padding: 30px 60px;
+    }
+}
+
+/*адаптив под смартфон*/
+@media screen and (max-width: 600px){
+    .experience__card {
+        padding: 30px 30px;
+    }
+}
