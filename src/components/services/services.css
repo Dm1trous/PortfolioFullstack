@@ -44,8 +44,12 @@
 }
 
 /*адаптив под смартфон*/
-@media screen and (max-width: 830px){
+@media screen and (max-width: 600px){
     .services__cards {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .services__card-items {
+        padding: 5px 20px;
     }
 }

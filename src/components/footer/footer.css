@@ -30,3 +30,16 @@ footer a {
     margin-bottom: 3rem;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 600px) {
+    .footer__link,
+    .footer__social {
+        gap: 1rem; 
+    }
+    .footer__link li {
+        margin: 0.5rem 0; 
+    }
+    .footer__social {
+        font-size: 1.5rem; 
+    }
+}

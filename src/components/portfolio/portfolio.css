@@ -39,12 +39,12 @@
        grid-template-columns: repeat(2, 1fr);
        gap: 1.8rem;
     }
-}
-    
+}  
+
 /*адаптив под смартфон*/
 @media screen and (max-width: 600px){
     .portfolio__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; 
         gap: 1.5rem;
-     }
+    }
 }
